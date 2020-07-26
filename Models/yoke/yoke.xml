@@ -16,6 +16,8 @@
 		<object-name>sup.001</object-name>
 		<object-name>switch.001</object-name>
 		<object-name>checklist</object-name>
+		<object-name>column</object-name>
+		<object-name>slider</object-name>
       <object-name>colum</object-name>
 		<condition>
           <property>sim/yokes-visible</property>
@@ -31,14 +33,16 @@
 		<object-name>sup.001</object-name>
 		<object-name>switch.001</object-name>
 		<object-name>checklist</object-name>
+		<object-name>column</object-name>
+		<object-name>slider</object-name>
       <object-name>colum</object-name>
  <property>systems/hydraulic/elevator-manual</property>
  <factor>7</factor>
  <offset-deg>5</offset-deg>
  <center>
-  <x-m>-0.11</x-m>
-  <y-m>0.0</y-m>
-  <z-m>-0.820</z-m>
+  <x-m>-0.1</x-m>
+  <y-m>0</y-m>
+  <z-m>-0.74</z-m>
  </center>
  <axis>
   <x>0</x>
@@ -46,6 +50,45 @@
   <z>0</z>
  </axis>
 </animation>
+
+ <animation>
+  <type>translate</type>
+ <object-name>yoke</object-name>
+ <object-name>apdisengage</object-name>
+		<object-name>plane.down</object-name>
+		<object-name>plane.up</object-name>
+		<object-name>sup.001</object-name>
+		<object-name>switch.001</object-name>
+		<object-name>checklist</object-name>
+		<object-name>column</object-name>
+		<object-name>slider</object-name>
+  <factor>1</factor>
+  <offset-m>0.74</offset-m>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>-1</z>
+  </axis>
+ </animation>
+ <animation>
+  <type>translate</type>
+ <object-name>yoke</object-name>
+ <object-name>apdisengage</object-name>
+		<object-name>plane.down</object-name>
+		<object-name>plane.up</object-name>
+		<object-name>sup.001</object-name>
+		<object-name>switch.001</object-name>
+		<object-name>checklist</object-name>
+		<object-name>column</object-name>
+		<object-name>slider</object-name>
+  <factor>1</factor>
+  <offset-m>0.1</offset-m>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z></z>
+  </axis>
+ </animation>
 
 <animation>
  <type>rotate</type>
@@ -56,6 +99,7 @@
 		<object-name>sup.001</object-name>
 		<object-name>switch.001</object-name>
 		<object-name>checklist</object-name>
+		<object-name>slider</object-name>
  <property>systems/hydraulic/aileron-manual</property>
 <interpolation>
 <entry><ind>-1</ind><dep>-60</dep></entry>
@@ -63,9 +107,9 @@
 <entry><ind>1</ind><dep>60</dep></entry>
 </interpolation>
  <center>
-  <x-m> 0.000</x-m>
+  <x-m>0.064306</x-m>
   <y-m>-0.000</y-m>
-  <z-m> 0.040</z-m>
+  <z-m>0.782174</z-m>
  </center>
  <axis>
   <x>-1.0</x>
@@ -127,7 +171,7 @@
   </interpolation>
   <axis>
     <x>0</x>
-    <y>-1</y>
+    <y>0</y>
     <z>0</z>
   </axis>
 </animation>
@@ -203,27 +247,14 @@
 		  <entry><ind>-1.0</ind><dep>  10.0</dep></entry>
 		</interpolation>
     <center>
-      <x-m>0.02</x-m>
+      <x-m>0</x-m>
       <y-m>0</y-m>
-      <z-m>0.073</z-m>
+      <z-m>0</z-m>
     </center>
     <axis>   
 		  <y>1</y>
     </axis>
 	
 	</animation>
-
-
-<!--  <animation>
-  <type>translate</type>
-	<property>xadjust</property>
-	<axis><x>1</x></axis>
-</animation>
-	
-<animation>
-  <type>translate</type>
-	<property>zadjust</property>
-	<axis><z>1</z></axis>
-</animation>  -->
 
 </PropertyList>

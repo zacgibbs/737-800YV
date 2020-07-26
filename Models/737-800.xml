@@ -92,6 +92,16 @@
     </offsets>
   </model>
   <model>
+    <name>RadioPanel</name>
+    <path>Aircraft/737-800YV/Models/RadioPanel/RadioPanel.xml</path>
+    <offsets>
+      <x-m>-18.005</x-m>
+      <y-m>0.0</y-m>
+      <z-m>0.98</z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  <model>
     <name>passengersseats</name>
     <path>Aircraft/737-800YV/Models/seats/passengers/passenger-seating.xml</path>
     <condition>
