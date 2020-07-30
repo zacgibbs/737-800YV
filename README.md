@@ -13,3 +13,4 @@ This aircraft was modified and updated in a joint effort by the following people
 ![image](https://imgur.com/A03GZVi.png)
 ![Image](https://imgur.com/wmfyjHC.png)
 ![Image](http://imgur.com/gqGSLMs.png)
+![Image](https://imgur.com/R9eUNQ5.png)
